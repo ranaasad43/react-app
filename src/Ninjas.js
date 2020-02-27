@@ -1,4 +1,5 @@
 import React from 'react';
+import './Ninjas.css'
 
 
 const Ninjas = ({ninjas,delNinja}) =>{
@@ -6,7 +7,7 @@ const Ninjas = ({ninjas,delNinja}) =>{
       if(ninja.age < 100){
         return (
           <div className="ninja" key={ninja.id}>
-            <div>Name: {ninja.name}</div>
+            <div className="title">Name: {ninja.name}</div>
             <div>Age: {ninja.age}</div>
             <div>Belt: {ninja.belt}</div>
             <button onClick={()=>{delNinja(ninja.id)}}>Delete</button>
