@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <h1>Pro App</h1>
-      <Ninjas />
+      <Ninjas name="Asad" age="31" belt="green"/>
+      <br/>
+      <Ninjas name="Ahsan" age="31" belt="red"/>
     </div>
   );
 }
