@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Ninjas = ({ninjas}) =>{
     const ninjalist = ninjas.map(ninja =>{
       if(ninja.age > 30){
